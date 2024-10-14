@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="icon" href="img/logo regristro.ico">
+    <title>Formulario</title>
+</head>
+<body>
+    <main class="from-regristro">
+        <h4>Formulario Regristro</h4>
+        <form action="" method="post">
+            <input class="controles" type="text" id="nombre" name="dataNombre" placeholder="Nombre"><br><br>
+            <input class="controles" type="text" id="apaterno" name="apePaterno" placeholder="Apellido paterno"><br><br>
+            <input class="controles" type="text" id="amaterno" name="apeMaterno" placeholder="Apellido materno"><br><br>
+            <input class="controles" type="text" id="correo" name="dataCorreo" placeholder="Correo"><br><br>
+            <input class="controles" type="password" id="contraseña" name="dataContraseña" placeholder="Contraseña"><br><br>
+
+            <h4>Sexo</h4>
+            <input type="radio" name="dataSexo" id="sxM" value="M"><label for="sxM">MASCULINO</label>
+            <input type="radio" name="dataSexo" id="sxF" value="F"><label for="sxF">FEMENINO</label><br><br>
+
+           <h4>Distrito de residencia</h4>
+            <input list="distritos" name="ubigeo">
+            <datalist id="distritos">
+                <option value="Lima"></option>
+                <option value="Ancon"></option>
+                <option value="Ate"></option>
+                <option value="Barranco"></option>
+                <option value="Breña"></option>
+                <option value="Carabayllo"></option>
+                <option value="Chaclacayo"></option>
+                <option value="Chorrillos"></option>
+                <option value="Cieneguilla"></option>
+                <option value="Comas"></option>
+                <option value="El Agustino"></option>
+                <option value="Independencia"></option>
+                <option value="Jesus Maria"></option>
+                <option value="La Molina"></option>
+                <option value="La Victoria"></option>
+                <option value="Lince"></option>
+                <option value="Los Olivos"></option>
+                <option value="Lurigancho"></option>
+                <option value="Lurin"></option>
+                <option value="Magdalena del Mar"></option>
+                <option value="Pueblo Libre"></option>
+                <option value="Miraflores"></option>
+                <option value="Pachacamac"></option>
+                <option value="Pucusana"></option>
+                <option value="Puente Piedra"></option>
+                <option value="Punta Hermosa"></option>
+                <option value="Punta Negra"></option>
+                <option value="Rimac"></option>
+                <option value="San Bartolo"></option>
+                <option value="San Borja"></option>
+                <option value="San Isidro"></option>
+                <option value="San Juan de Lurigancho"></option>
+                <option value="San Juan de Miraflores"></option>
+                <option value="San Luis"></option>
+                <option value="San Martin de Porres"></option>
+                <option value="San Miguel"></option>
+                <option value="Santa Anita"></option>
+                <option value="Santa Maria del Mar"></option>
+                <option value="Santa Rosa"></option>
+                <option value="Santiago de Surco"></option>
+                <option value="Surquillo"></option>
+                <option value="Villa El Salvador"></option>
+                <option value="Villa Maria del Triunfo"></option>
+            </datalist><br><br>
+            
+            <h4>Fecha de regristro</h4>
+            <input type="date" id="Fecha" name="fecRegris"><br><br>
+
+            <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+            
+            <input class="boton" type="submit" value="REGRISTRAR">
+
+            <P><a href="#">¿Ya tengo Cuenta?</a></P>
+            <p><a href="index.html">Volver al inicio</a></p>
+        </form>
+    </main>
+</body>
+</html>
